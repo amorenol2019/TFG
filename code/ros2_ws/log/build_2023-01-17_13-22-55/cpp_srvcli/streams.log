@@ -1,0 +1,66 @@
+[0.018s] Invoking command in '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/amorenol/TFG/code/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli
+[0.155s] -- The C compiler identification is GNU 11.3.0
+[0.278s] -- The CXX compiler identification is GNU 11.3.0
+[0.294s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.471s] -- Detecting CXX compiler ABI info
+[0.644s] -- Detecting CXX compiler ABI info - done
+[0.666s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.666s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.687s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.087s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.287s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[1.405s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.415s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.434s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.694s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.700s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.906s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.969s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.082s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.112s] -- Looking for pthread.h
+[2.285s] -- Looking for pthread.h - found
+[2.286s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.476s] -- Found Threads: TRUE  
+[2.972s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.621s] -- Configuring done
+[3.677s] -- Generating done
+[3.684s] -- Build files have been written to: /home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli
+[3.713s] Invoked command in '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/amorenol/TFG/code/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli
+[3.720s] Invoking command in '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[3.845s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[3.845s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[14.541s] [ 75%] [32m[1mLinking CXX executable server[0m
+[14.978s] [ 75%] Built target server
+[15.453s] [100%] [32m[1mLinking CXX executable client[0m
+[15.909s] [100%] Built target client
+[15.937s] Invoked command in '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[16.025s] Invoking command in '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli
+[16.042s] -- Install configuration: ""
+[16.043s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[16.045s] -- Set runtime path of "/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[16.046s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[16.047s] -- Set runtime path of "/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[16.048s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[16.049s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[16.049s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[16.049s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[16.050s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[16.050s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[16.051s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[16.051s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[16.051s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[16.052s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[16.052s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[16.052s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[16.053s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[16.054s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[16.054s] -- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[16.060s] Invoked command in '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli

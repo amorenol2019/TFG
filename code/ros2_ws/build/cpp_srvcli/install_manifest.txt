@@ -1,0 +1,17 @@
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

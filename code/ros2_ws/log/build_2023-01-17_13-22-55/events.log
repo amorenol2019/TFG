@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000306] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.016220] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.017075] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/amorenol/TFG/code/ros2_ws/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli'], 'cwd': '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amorenol'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amorenol'), ('OLDPWD', '/home/amorenol/TFG/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amorenol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amorenol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/amorenol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amorenol:@/tmp/.ICE-unix/2508,unix/amorenol:/tmp/.ICE-unix/2508'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5744cb6_1341_45c0_ab9d_e222c223115b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LMBXY1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.196'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096042] (-) TimerEvent: {}
+[0.155541] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.196226] (-) TimerEvent: {}
+[0.278226] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.294567] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.296375] (-) TimerEvent: {}
+[0.396809] (-) TimerEvent: {}
+[0.433968] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.453722] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.462055] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.463355] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.471116] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.497002] (-) TimerEvent: {}
+[0.597502] (-) TimerEvent: {}
+[0.644199] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.665805] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.666521] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.667677] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.686786] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.697648] (-) TimerEvent: {}
+[0.798079] (-) TimerEvent: {}
+[0.898551] (-) TimerEvent: {}
+[0.999004] (-) TimerEvent: {}
+[1.078535] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.099172] (-) TimerEvent: {}
+[1.199627] (-) TimerEvent: {}
+[1.287020] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.299778] (-) TimerEvent: {}
+[1.400220] (-) TimerEvent: {}
+[1.404761] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.415328] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.434593] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.469431] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.500380] (-) TimerEvent: {}
+[1.517996] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.600578] (-) TimerEvent: {}
+[1.694665] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.699934] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.700724] (-) TimerEvent: {}
+[1.801105] (-) TimerEvent: {}
+[1.901585] (-) TimerEvent: {}
+[1.905816] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.969145] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.001740] (-) TimerEvent: {}
+[2.081998] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.101909] (-) TimerEvent: {}
+[2.112498] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.202112] (-) TimerEvent: {}
+[2.284730] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.286161] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.302281] (-) TimerEvent: {}
+[2.402796] (-) TimerEvent: {}
+[2.472396] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.475754] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.502946] (-) TimerEvent: {}
+[2.603412] (-) TimerEvent: {}
+[2.703980] (-) TimerEvent: {}
+[2.804467] (-) TimerEvent: {}
+[2.904989] (-) TimerEvent: {}
+[2.972228] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[3.005099] (-) TimerEvent: {}
+[3.105585] (-) TimerEvent: {}
+[3.206083] (-) TimerEvent: {}
+[3.306571] (-) TimerEvent: {}
+[3.407070] (-) TimerEvent: {}
+[3.507567] (-) TimerEvent: {}
+[3.608086] (-) TimerEvent: {}
+[3.621589] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.677283] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[3.684589] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli\n'}
+[3.708251] (-) TimerEvent: {}
+[3.713089] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[3.715293] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[3.717380] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli', '--', '-j8', '-l8'], 'cwd': '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amorenol'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amorenol'), ('OLDPWD', '/home/amorenol/TFG/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amorenol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amorenol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/amorenol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amorenol:@/tmp/.ICE-unix/2508,unix/amorenol:/tmp/.ICE-unix/2508'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5744cb6_1341_45c0_ab9d_e222c223115b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LMBXY1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.196'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.808443] (-) TimerEvent: {}
+[3.845055] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[3.845653] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[3.908579] (-) TimerEvent: {}
+[4.009160] (-) TimerEvent: {}
+[4.109698] (-) TimerEvent: {}
+[4.210254] (-) TimerEvent: {}
+[4.310770] (-) TimerEvent: {}
+[4.411279] (-) TimerEvent: {}
+[4.511988] (-) TimerEvent: {}
+[4.612696] (-) TimerEvent: {}
+[4.713212] (-) TimerEvent: {}
+[4.813937] (-) TimerEvent: {}
+[4.914508] (-) TimerEvent: {}
+[5.015086] (-) TimerEvent: {}
+[5.115829] (-) TimerEvent: {}
+[5.216583] (-) TimerEvent: {}
+[5.317142] (-) TimerEvent: {}
+[5.417748] (-) TimerEvent: {}
+[5.518369] (-) TimerEvent: {}
+[5.618947] (-) TimerEvent: {}
+[5.719524] (-) TimerEvent: {}
+[5.820115] (-) TimerEvent: {}
+[5.920691] (-) TimerEvent: {}
+[6.021373] (-) TimerEvent: {}
+[6.122036] (-) TimerEvent: {}
+[6.222685] (-) TimerEvent: {}
+[6.323310] (-) TimerEvent: {}
+[6.423892] (-) TimerEvent: {}
+[6.524474] (-) TimerEvent: {}
+[6.625056] (-) TimerEvent: {}
+[6.725713] (-) TimerEvent: {}
+[6.826359] (-) TimerEvent: {}
+[6.927009] (-) TimerEvent: {}
+[7.027657] (-) TimerEvent: {}
+[7.128305] (-) TimerEvent: {}
+[7.228977] (-) TimerEvent: {}
+[7.329631] (-) TimerEvent: {}
+[7.430279] (-) TimerEvent: {}
+[7.530945] (-) TimerEvent: {}
+[7.631582] (-) TimerEvent: {}
+[7.732212] (-) TimerEvent: {}
+[7.832907] (-) TimerEvent: {}
+[7.933582] (-) TimerEvent: {}
+[8.034203] (-) TimerEvent: {}
+[8.134952] (-) TimerEvent: {}
+[8.235592] (-) TimerEvent: {}
+[8.336242] (-) TimerEvent: {}
+[8.436917] (-) TimerEvent: {}
+[8.537573] (-) TimerEvent: {}
+[8.638210] (-) TimerEvent: {}
+[8.738837] (-) TimerEvent: {}
+[8.839475] (-) TimerEvent: {}
+[8.940064] (-) TimerEvent: {}
+[9.040661] (-) TimerEvent: {}
+[9.141304] (-) TimerEvent: {}
+[9.241985] (-) TimerEvent: {}
+[9.342638] (-) TimerEvent: {}
+[9.443360] (-) TimerEvent: {}
+[9.544041] (-) TimerEvent: {}
+[9.644722] (-) TimerEvent: {}
+[9.745287] (-) TimerEvent: {}
+[9.845868] (-) TimerEvent: {}
+[9.946477] (-) TimerEvent: {}
+[10.047067] (-) TimerEvent: {}
+[10.147700] (-) TimerEvent: {}
+[10.248334] (-) TimerEvent: {}
+[10.348991] (-) TimerEvent: {}
+[10.449682] (-) TimerEvent: {}
+[10.550396] (-) TimerEvent: {}
+[10.651224] (-) TimerEvent: {}
+[10.752038] (-) TimerEvent: {}
+[10.852945] (-) TimerEvent: {}
+[10.953910] (-) TimerEvent: {}
+[11.054532] (-) TimerEvent: {}
+[11.155108] (-) TimerEvent: {}
+[11.255663] (-) TimerEvent: {}
+[11.356377] (-) TimerEvent: {}
+[11.457005] (-) TimerEvent: {}
+[11.557699] (-) TimerEvent: {}
+[11.658301] (-) TimerEvent: {}
+[11.758919] (-) TimerEvent: {}
+[11.859561] (-) TimerEvent: {}
+[11.960158] (-) TimerEvent: {}
+[12.060943] (-) TimerEvent: {}
+[12.161537] (-) TimerEvent: {}
+[12.262161] (-) TimerEvent: {}
+[12.362741] (-) TimerEvent: {}
+[12.463316] (-) TimerEvent: {}
+[12.563922] (-) TimerEvent: {}
+[12.664530] (-) TimerEvent: {}
+[12.765091] (-) TimerEvent: {}
+[12.865620] (-) TimerEvent: {}
+[12.966131] (-) TimerEvent: {}
+[13.066722] (-) TimerEvent: {}
+[13.167339] (-) TimerEvent: {}
+[13.267940] (-) TimerEvent: {}
+[13.368589] (-) TimerEvent: {}
+[13.469125] (-) TimerEvent: {}
+[13.569708] (-) TimerEvent: {}
+[13.670315] (-) TimerEvent: {}
+[13.770963] (-) TimerEvent: {}
+[13.871619] (-) TimerEvent: {}
+[13.972144] (-) TimerEvent: {}
+[14.072641] (-) TimerEvent: {}
+[14.173153] (-) TimerEvent: {}
+[14.273636] (-) TimerEvent: {}
+[14.374165] (-) TimerEvent: {}
+[14.474716] (-) TimerEvent: {}
+[14.540647] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[14.574905] (-) TimerEvent: {}
+[14.675446] (-) TimerEvent: {}
+[14.776020] (-) TimerEvent: {}
+[14.876659] (-) TimerEvent: {}
+[14.977350] (-) TimerEvent: {}
+[14.978134] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[15.077542] (-) TimerEvent: {}
+[15.178043] (-) TimerEvent: {}
+[15.278538] (-) TimerEvent: {}
+[15.379044] (-) TimerEvent: {}
+[15.453467] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[15.479195] (-) TimerEvent: {}
+[15.579790] (-) TimerEvent: {}
+[15.680357] (-) TimerEvent: {}
+[15.780985] (-) TimerEvent: {}
+[15.881538] (-) TimerEvent: {}
+[15.908563] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[15.936988] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[15.981813] (-) TimerEvent: {}
+[15.999789] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[16.024161] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli'], 'cwd': '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amorenol'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amorenol'), ('OLDPWD', '/home/amorenol/TFG/code'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amorenol'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amorenol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/amorenol/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amorenol:@/tmp/.ICE-unix/2508,unix/amorenol:/tmp/.ICE-unix/2508'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5744cb6_1341_45c0_ab9d_e222c223115b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LMBXY1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.196'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amorenol/TFG/code/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.042426] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.043138] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[16.045274] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[16.045857] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[16.047625] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[16.048285] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[16.048814] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[16.049297] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[16.049656] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[16.050112] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[16.050522] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[16.050863] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[16.051186] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[16.051488] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[16.051790] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[16.052162] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[16.052644] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[16.053257] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[16.053934] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[16.054507] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/amorenol/TFG/code/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[16.059755] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[16.082461] (-) TimerEvent: {}
+[16.187326] (-) TimerEvent: {}
+[16.206521] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[16.208196] (-) EventReactorShutdown: {}
